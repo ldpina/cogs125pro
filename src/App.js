@@ -23,9 +23,11 @@ function App() {
   return (
     <div className="App">
       <br/>
-      <h1>Hi, I am Luis Pina</h1>
-      <img className = "luis" src={luisImage} alt="Luis" />
-      <h3>Here is some cool things you can do with frontend development!</h3>
+      <div className="top-page">
+        <h2>Hi, I am Luis Pina</h2>
+        <img className = "luis" src={luisImage} alt="Luis" />
+        <h3>Here is some cool things you can do with frontend development!</h3>
+      </div>
       <div className="previews">
         <div className="confetti">
           <h3>create on screen effects!</h3>
@@ -65,8 +67,8 @@ function App() {
             </ul>
           </div>
 
-
       </div>
+      <br/>
     </div>
   );
 }

@@ -1,13 +1,23 @@
 body{
-  background-color: #ADD8E6;
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
 }
 
 .App{
   text-align: center;
 }
+
+.top-page{
+  display: inline-block;
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 160, 97, 0.7);
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
 .luis{
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
 }
 
 .previews {
@@ -16,12 +26,15 @@ body{
 }
 
 .confetti {
-  padding: 100px;
-  background-color: orange;
+  padding: 40px;
   max-width: 33%;
   justify-content: center; /* Centers content horizontally */
   align-items: center;    /* Centers content vertically */
   text-align: center;
+  border-radius: 20px;
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 160, 97, 0.7);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .confButton {
@@ -30,10 +43,11 @@ body{
   border: none;
   background-color: #04AA6D;
   color: white;
-  padding: 75px;
+  padding: 40px;
   font-size: 40px;
   cursor: pointer;
   text-align: center;
+  
 }
 
 .confButton:hover {
@@ -42,15 +56,41 @@ body{
 }
 
 .discover-container {
-  background-color: red;
+  /* background-color: red; */
   margin-left: 20px;
-  padding: 75px;
+  padding: 40px;
   max-width: 33%;
+  border-radius: 20px;
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 160, 97, 0.7);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .diffPages{
-  background-color: red;
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 160, 97, 0.7);
   margin-left: 20px;
-  padding: 75px;
+  padding: 40px;
   max-width: 33%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.subContent{
+  display: block;
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 160, 97, 0.7);
+  border-radius: 20px;
+  margin: 80px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  align-items: center;
+  padding: 20px;
 }
