@@ -12,7 +12,7 @@ function Projects() {
         <button onClick={() => navigate(-1)}>🔙 Back</button>
         <div className="subContent">
             <h2>Projects Page</h2>
-            <p>This is the about page content. Here you can provide information about yourself or your app.</p>
+            <p>This is the projects page aka subpage 1.</p>
         </div>
     </div>
   );
